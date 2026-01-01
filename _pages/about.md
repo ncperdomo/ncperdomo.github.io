@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: 
 
-selected_papers: false # includes a list of papers marked as "selected={false}"
+selected_papers: true # includes a list of papers marked as "selected={false}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -26,9 +26,11 @@ latest_posts:
 
 I am a PhD candidate at Indiana University working on active tectonics and crustal deformation modeling. My work integrates geodetic data with analytical and numerical models to study the influence of transient mantle flow on surface strain rates and the partitioning of deformation between faults and the surrounding crust throughout the earthquake cycle.
 
-#### **Research Interests**
+#### Research interests
 
-- **Earthquake-Cycle Deformation**  
+- Earthquake-cycle deformation
   - How transient is the deformation observed between earthquakes? 
-  - How do surface strain rates partition among between elastic locking on faults and distributed deformation within the crust?
+  - How do surface strain rates partition between elastic locking on faults and distributed deformation within the crust?
   - What role do mantle processes play in driving present-day surface deformation?
+
+---
