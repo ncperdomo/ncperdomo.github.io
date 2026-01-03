@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate at Indiana University working on active tectonics and crustal deformation modeling. My work integrates geodetic data with analytical and numerical models to study how deformation is partitioned between faults and the surrounding crust throughout the earthquake cycle, and how transient viscoelastic mantle flow influences surface strain rates.
+I am a PhD candidate at Indiana University working on active tectonics and crustal deformation modeling. My work integrates geodetic data with analytical and numerical models to study the partitioning of deformation between faults and the surrounding crust throughout the earthquake cycle, as well as the influence of transient viscoelastic mantle flow on surface strain rates.
 
 #### Research interests
 
