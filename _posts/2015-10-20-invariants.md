@@ -9,6 +9,25 @@ related_posts: false
 ---
 
 **"Errare humanum est, perseverare autem diabolicum."**
+<br> 
+*"Making mistakes is human; persisting in them is diabolical."*
+
+---
+
+Before diving into the formal definitions, I want to note a few conceptual and
+notational inaccuracies that I have run into over time when working with strain-rate
+tensors. Some common in the literature, and some of my own making:
+
+1. Implicitly **associating $\dot\varepsilon_1$ with extension and
+   $\dot\varepsilon_2$ with shortening**, overlooking that these indices reflect
+   eigenvalue ordering rather than deformation style, which depends on the sign of the
+   principal strain rates.
+
+2. Referring to the **Frobenius norm** of the strain-rate tensor as the “**second invariant**,”
+   rather than as a distinct (and perfectly valid) scalar invariant.
+
+The notes below are my best attempt to write these points down carefully, both to clarify
+them for myself and to avoid having to rediscover them again later.
 
 ---
 
@@ -218,7 +237,7 @@ $$
 \dot\varepsilon_{1,2} = \tfrac12\left(\dot\Delta \pm {\color{red}{2}}\dot\gamma_{\max}\right),
 $$
 
-**Note (erratum).** The factor of ${\color{red}{2}}$ was inadvertently omitted in the corresponding equation reported in the appendix of [my paper](https://doi.org/10.1029/2025JB031738) on strain rates across the Alpine–Himalayan belt. This was an oversight on my part. 
+**Note (erratum).** The factor of ${\color{red}{2}}$ was inadvertently omitted in the corresponding equation reported in the appendix of [this paper](https://doi.org/10.1029/2025JB031738) on strain rates across the Alpine–Himalayan belt. This was an oversight on my part. 
 
 ---
 
@@ -233,7 +252,7 @@ $$
 \label{eq:frob_relation}
 $$
 
-For a purely deviatoric tensor $\dot\varepsilon'$,
+For a purely deviatoric tensor $\dot\varepsilon'$, the Frobenius norm is just a scaled version of the max. shear strain rate:
 
 $$
 \|\dot\varepsilon'\|_F^{2D}
@@ -258,22 +277,23 @@ In particular:
 - $\dot\varepsilon_1$ represents the **maximum principal strain rate**, not necessarily the maximum *extensional* strain rate.
 - $\dot\varepsilon_2$ represents the **minimum principal strain rate**, not necessarily the maximum *shortening* strain rate.
 
-Whether a given principal strain rate corresponds to extension or shortening depends on its **sign**, not on its index.
+**Whether a given principal strain rate direction corresponds to extension or shortening depends on the sign of its associated eigenvalue, not on its index.**
 
 Specifically:
-- If $\dot\varepsilon_1 > 0$, then $\dot\varepsilon_1$ corresponds to maximum extension and $\dot\varepsilon_2$ corresponds to maximum shortening.
-- If $\dot\varepsilon_1 < 0$, then *both* principal strain rates are compressional, and $\dot\varepsilon_1$ represents the **least compressive** direction, not extension.
-- If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 > 0$, the strain rate tensor is purely extensional.
-- If $\dot\varepsilon_1 < 0$ and $\dot\varepsilon_2 < 0$, the strain rate tensor is purely compressional.
+- If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 < 0$, the principal direction associated with $\dot\varepsilon_1$ corresponds to maximum extension, and that associated with $\dot\varepsilon_2$ corresponds to maximum shortening.
+- If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 > 0$, the strain field is purely extensional. Both principal strain rates correspond to extension, and no shortening direction exists.
+- If $\dot\varepsilon_1 < 0$ and $\dot\varepsilon_2 < 0$, the strain field is purely compressional. Both principal strain rates correspond to shortening; $\dot\varepsilon_2$ represents the maximum shortening direction, while $\dot\varepsilon_1$ represents the least compressive direction. 
 
-As a consequence, identifying $\dot\varepsilon_1$ with “extension” and $\dot\varepsilon_2$ with “shortening” without explicitly checking their signs can lead to incorrect physical interpretations of the deformation field.
+**Note (erratum)** In the appendix of [this paper](https://doi.org/10.1029/2025JB031738) on strain rates across the Alpine–Himalayan belt, I incorrectly stated that when $\dot\varepsilon_{\max}<0$, the azimuth $Az_{\dot\varepsilon_{\max}}$ represents the direction of maximum shortening. In a purely compressional regime, $\dot\varepsilon_{\max}=\dot\varepsilon_1$ corresponds to the least compressive direction, whereas maximum shortening is associated with $\dot\varepsilon_2$. 
+
+In all cases, associating $\dot\varepsilon_1$ with extension and $\dot\varepsilon_2$ with shortening without explicitly evaluating their signs can lead to incorrect physical interpretations.
 
 A robust practice is therefore to:
 1. compute the principal strain rates,
 2. examine their signs,
 3. and only then assign the labels *maximum extension* and *maximum shortening* accordingly.
 
-**Note (erratum)**. A confusion led me to implicitly associate $\dot\varepsilon_1$ with maximum extension and $\dot\varepsilon_2$ with maximum shortening. Fortunately, these issues were purely notational rather than methodological. In     the analysis itself, I explicitly evaluated the signs of the eigenvalues to determine whether the principal directions represented extension or shortening (see discussion below). Therefore, all results presented in the paper are correct despite the u    nfortunate notational confusion throughout the paper.
+**Note (erratum)**. A confusion led me to implicitly associate $\dot\varepsilon_1$ with maximum extension and $\dot\varepsilon_2$ with maximum shortening. Fortunately, these issues were purely notational rather than methodological. In the analysis itself, I explicitly evaluated the signs of the eigenvalues to determine whether the principal directions represented extension or shortening. Therefore, all results presented are correct despite the unfortunate notational confusion throughout [the paper](https://doi.org/10.1029/2025JB031738). 
 
 ---
 
@@ -298,29 +318,7 @@ $$
 This azimuth describes the orientation of a **principal axis** (an eigenvector of the
 strain-rate tensor) and is therefore a *geometric* property of the tensor itself.
 By construction, it does not encode whether deformation along this axis corresponds
-to extension or shortening.
-
-Let $\dot\varepsilon_1 \ge \dot\varepsilon_2$ denote the principal strain rates. The
-physical interpretation of the principal axes depends on the **signs** of these
-eigenvalues:
-
-- If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 < 0$, the strain field is mixed
-  extensional–compressional. In this case, the eigenvector associated with
-  $\dot\varepsilon_1$ represents the direction of maximum extension, while the
-  eigenvector associated with $\dot\varepsilon_2$ represents the direction of
-  maximum shortening. The two directions are orthogonal.
-
-- If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 > 0$, the strain field is purely
-  extensional. Both principal axes correspond to extension, and **no maximum
-  shortening direction exists**.
-
-- If $\dot\varepsilon_1 < 0$ and $\dot\varepsilon_2 < 0$, the strain field is purely
-  compressional. Both principal axes correspond to shortening; the eigenvector
-  associated with the most negative eigenvalue ($\dot\varepsilon_2$) represents the
-  direction of maximum shortening, whereas $Az_{\dot\varepsilon_{\max}}$ corresponds
-  to the direction of least compression.
-
-Consequently, the azimuth $Az_{\dot\varepsilon_{\max}}$ should be interpreted strictly
+to extension or shortening. Consequently, $Az_{\dot\varepsilon_{\max}}$ should be interpreted strictly
 as the orientation of the principal axis associated with the largest eigenvalue.
 Assigning it to either extension or shortening requires an explicit evaluation of
 the signs of the principal strain rates.
