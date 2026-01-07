@@ -3,7 +3,7 @@ layout: post
 title: The 2D strain rate tensor and its invariants
 date: 2026-01-06 18:10:00-0000
 description: Commonly overlooked conceptual inaccuracies in strain-rate studies 
-tags: strain tensor linear-algebra 
+tags: strain tensors linear-algebra 
 categories: methods 
 related_posts: false
 ---
@@ -208,6 +208,7 @@ Examples include
 - $\dot\varepsilon_1\dot\varepsilon_2$ (determinant, $I_2$),
 - $\sqrt{\dot\varepsilon_1^2+\dot\varepsilon_2^2}$ (Frobenius norm),
 - $\frac{1}{2}\left(\dot\varepsilon_1-\dot\varepsilon_2\right)$ (maximum shear),
+- $\frac{1}{2}\left(\dot\varepsilon_1+\dot\varepsilon_2\right)$ (mean horizontal strain rate),
 - higher-order combinations (e.g., $\dot\varepsilon_1^4+\dot\varepsilon_2^4$).
 
 This implies that there exists an **infinite family of invariants**, each capturing a different aspect of the strain-rate tensor.
@@ -281,10 +282,10 @@ In particular:
 
 Specifically:
 - If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 < 0$, the principal direction associated with $\dot\varepsilon_1$ corresponds to maximum extension, and that associated with $\dot\varepsilon_2$ corresponds to maximum shortening.
-- If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 > 0$, the strain field is purely extensional. Both principal strain rates correspond to extension, and no shortening direction exists.
-- If $\dot\varepsilon_1 < 0$ and $\dot\varepsilon_2 < 0$, the strain field is purely compressional. Both principal strain rates correspond to shortening; $\dot\varepsilon_2$ represents the maximum shortening direction, while $\dot\varepsilon_1$ represents the least compressive direction. 
+- If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 > 0$, the strain rate tensor is purely extensional. Both principal strain rates correspond to extension, and no shortening direction exists.
+- If $\dot\varepsilon_1 < 0$ and $\dot\varepsilon_2 < 0$, the strain rate tensor is purely compressional. Both principal strain rates correspond to shortening; $\dot\varepsilon_2$ represents the maximum shortening direction, while $\dot\varepsilon_1$ represents the least compressive direction, and no extensional direction exists. 
 
-**Note (erratum)** In the appendix of [this paper](https://doi.org/10.1029/2025JB031738) on strain rates across the Alpine–Himalayan belt, I incorrectly stated that when $\dot\varepsilon_{\max}<0$, the azimuth $Az_{\dot\varepsilon_{\max}}$ represents the direction of maximum shortening. In a purely compressional regime, $\dot\varepsilon_{\max}=\dot\varepsilon_1$ corresponds to the least compressive direction, whereas maximum shortening is associated with $\dot\varepsilon_2$. 
+**Note (erratum)** In the appendix of [this paper](https://doi.org/10.1029/2025JB031738), I incorrectly stated that when $\dot\varepsilon_{\max}<0$, the azimuth $Az_{\dot\varepsilon_{\max}}$ represents the direction of maximum shortening. In a purely compressional regime, $\dot\varepsilon_{\max}=\dot\varepsilon_1$ corresponds to the least compressive direction, whereas maximum shortening is associated with $\dot\varepsilon_2$. 
 
 In all cases, associating $\dot\varepsilon_1$ with extension and $\dot\varepsilon_2$ with shortening without explicitly evaluating their signs can lead to incorrect physical interpretations.
 
@@ -293,7 +294,7 @@ A robust practice is therefore to:
 2. examine their signs,
 3. and only then assign the labels *maximum extension* and *maximum shortening* accordingly.
 
-**Note (erratum)**. A confusion led me to implicitly associate $\dot\varepsilon_1$ with maximum extension and $\dot\varepsilon_2$ with maximum shortening. Fortunately, these issues were purely notational rather than methodological. In the analysis itself, I explicitly evaluated the signs of the eigenvalues to determine whether the principal directions represented extension or shortening. Therefore, all results presented are correct despite the unfortunate notational confusion throughout [the paper](https://doi.org/10.1029/2025JB031738). 
+**Note (erratum)**. A confusion led me to implicitly associate $\dot\varepsilon_1$ with maximum extension and $\dot\varepsilon_2$ with maximum shortening in [this paper](https://doi.org/10.1029/2025JB031738). Fortunately, these issues were purely notational rather than methodological. In the analysis itself, I explicitly evaluated the signs of the eigenvalues to determine whether the principal directions represented extension or shortening. Therefore, all results presented are correct despite the unfortunate notational confusion throughout the paper. 
 
 ---
 
@@ -323,3 +324,4 @@ as the orientation of the principal axis associated with the largest eigenvalue.
 Assigning it to either extension or shortening requires an explicit evaluation of
 the signs of the principal strain rates.
 
+<br>
