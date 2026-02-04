@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-01'
+  last_updated: '2026-02-04'
 papers:
   AC3f_E0AAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -49,6 +49,10 @@ papers:
     citations: 18
     title: Interseismic deformation in the Gulf of Aqaba from GPS measurements
     year: '2022'
+  AC3f_E0AAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: 'ncperdomo/FICORO_GNSS: FICORO_GNSS: An open-source Python software package for filtering, combining and rotating GNSS velocity fields'
+    year: Unknown Year
   AC3f_E0AAAAJ:u-x6o8ySG0sC:
     citations: 1
     title: GPS Observations and Modelling of Crustal Deformation in Gulf of Aqaba
