@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-05-11'
 papers:
   AC3f_E0AAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -21,16 +21,20 @@ papers:
     citations: 0
     title: Using Geodetically Derived Strain Rates in Future US National Seismic Hazard Models
     year: '2023'
+  AC3f_E0AAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: Disentangling on-fault and off-fault contributions to geodetic strain rates
+    year: '2025'
   AC3f_E0AAAAJ:W7OEmFMy1HYC:
     citations: 0
     title: Interseismic deformation of the Dead Sea fault from along-track Sentinel-1 burst-overlap interferometry
     year: '2023'
   AC3f_E0AAAAJ:WF5omc3nYNoC:
-    citations: 1
+    citations: 2
     title: "Strain rates along the Alpine\u2010Himalayan belt from a comprehensive GNSS velocity field"
     year: '2025'
   AC3f_E0AAAAJ:Y0pCki6q_DkC:
-    citations: 18
+    citations: 19
     title: Resolving the slip-rate inconsistency of the northern Dead Sea fault
     year: '2024'
   AC3f_E0AAAAJ:YsMSGLbcyi4C:
