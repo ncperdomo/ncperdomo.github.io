@@ -142,7 +142,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=AC3f_E0AAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=ngu1odwAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
