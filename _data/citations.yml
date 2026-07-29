@@ -1,79 +1,71 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-07-29'
 papers:
-  AC3f_E0AAAAJ:9yKSN-GCB0IC:
-    citations: 0
-    title: Interseismic Deformation in the Gulf of Aqaba Inferred from GPS Measurements
-    year: '2020'
-  AC3f_E0AAAAJ:LkGwnXOMwfcC:
-    citations: 0
-    title: 'Subduction Zone Deformation Throughout the Earthquake Cycle: Observations and Models I Oral'
-    year: '2025'
-  AC3f_E0AAAAJ:Se3iqnhoufwC:
-    citations: 0
-    title: Global evidence that fault complexity controls on-fault and off-fault deformation partitioning throughout the earthquake cycle
-    year: '2026'
-  AC3f_E0AAAAJ:Tyk-4Ss8FVUC:
-    citations: 0
-    title: Resolving the Slip-Rate Inconsistency of the Northern Dead Sea Fault
-    year: '2024'
-  AC3f_E0AAAAJ:UeHWp8X0CEIC:
-    citations: 0
-    title: Using Geodetically Derived Strain Rates in Future US National Seismic Hazard Models
-    year: '2023'
-  AC3f_E0AAAAJ:UebtZRa9Y70C:
-    citations: 0
-    title: Disentangling on-fault and off-fault contributions to geodetic strain rates
-    year: '2025'
-  AC3f_E0AAAAJ:W7OEmFMy1HYC:
-    citations: 0
-    title: Interseismic deformation of the Dead Sea fault from along-track Sentinel-1 burst-overlap interferometry
-    year: '2023'
-  AC3f_E0AAAAJ:WF5omc3nYNoC:
-    citations: 3
-    title: "Strain rates along the Alpine\u2010Himalayan belt from a comprehensive GNSS velocity field"
-    year: '2025'
-  AC3f_E0AAAAJ:Y0pCki6q_DkC:
-    citations: 19
-    title: Resolving the slip-rate inconsistency of the northern Dead Sea fault
-    year: '2024'
-  AC3f_E0AAAAJ:YsMSGLbcyi4C:
-    citations: 0
-    title: Using Geodetically Derived Strain Rates in Future US National Seismic Hazard Models
-    year: '2023'
-  AC3f_E0AAAAJ:_FxGoFyzp5QC:
+  ngu1odwAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'Subduction Zone Deformation Throughout the Earthquake Cycle: Observations and Models'
     year: Unknown Year
-  AC3f_E0AAAAJ:d1gkVwhDpl0C:
+  ngu1odwAAAAJ:9yKSN-GCB0IC:
+    citations: 3
+    title: "Strain rates along the Alpine\u2010Himalayan belt from a comprehensive GNSS velocity field"
+    year: '2025'
+  ngu1odwAAAAJ:IjCSPb-OGe4C:
     citations: 0
-    title: Interdisciplinary Earthquake Hazard Research in Gulf of Aqaba.
-    year: '2019'
-  AC3f_E0AAAAJ:eQOLeE2rZwMC:
-    citations: 0
-    title: "A Fault\u2010based Elastic Model for On-Fault and Off-Fault Deformation and Uncertainties in the Western US"
+    title: Resolving the Slip-Rate Inconsistency of the Northern Dead Sea Fault
     year: '2024'
-  AC3f_E0AAAAJ:qjMakFHDy7sC:
-    citations: 21
-    title: Interseismic deformation in the Gulf of Aqaba from GPS measurements
-    year: '2022'
-  AC3f_E0AAAAJ:roLk4NBRz8UC:
+  ngu1odwAAAAJ:Tyk-4Ss8FVUC:
+    citations: 19
+    title: Resolving the slip-rate inconsistency of the northern Dead Sea fault
+    year: '2024'
+  ngu1odwAAAAJ:UeHWp8X0CEIC:
     citations: 0
-    title: 'ncperdomo/FICORO_GNSS: FICORO_GNSS: An open-source Python software package for filtering, combining and rotating GNSS velocity fields'
-    year: Unknown Year
-  AC3f_E0AAAAJ:u-x6o8ySG0sC:
+    title: Interseismic Deformation in the Gulf of Aqaba Inferred from GPS Measurements
+    year: '2020'
+  ngu1odwAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: A New Comprehensive Model of Crustal Deformation in the Mediterranean and the Middle East from GNSS Data
+    year: '2023'
+  ngu1odwAAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: Interseismic deformation of the Dead Sea fault from along-track Sentinel-1 burst-overlap interferometry
+    year: '2023'
+  ngu1odwAAAAJ:Y0pCki6q_DkC:
     citations: 1
-    title: Gps observations and modelling of crustal deformation in gulf of aqaba
+    title: GPS Observations and Modelling of Crustal Deformation in Gulf of Aqaba
     year: '2019'
-  AC3f_E0AAAAJ:u5HHmVD_uO8C:
+  ngu1odwAAAAJ:YsMSGLbcyi4C:
     citations: 0
-    title: Interdisciplinary Earthquake Hazard Research in Gulf of Aqaba and Strait of Tiran (GAST)
-    year: '2018'
-  AC3f_E0AAAAJ:ufrVoPGSRksC:
+    title: Using Geodetically Derived Strain Rates in Future US National Seismic Hazard Models
+    year: '2023'
+  ngu1odwAAAAJ:_FxGoFyzp5QC:
     citations: 0
     title: A Fault-based Elastic Model for On-Fault and Off-Fault Deformation and Uncertainties in the Western US
     year: '2024'
-  AC3f_E0AAAAJ:zYLM7Y9cAGgC:
+  ngu1odwAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: "A Fault\u2010based Elastic Model for On-Fault and Off-Fault Deformation and Uncertainties in the Western US"
+    year: '2024'
+  ngu1odwAAAAJ:eQOLeE2rZwMC:
     citations: 0
     title: A New Comprehensive Model of Crustal Deformation in the Mediterranean and the Middle East from GNSS Data
+    year: '2023'
+  ngu1odwAAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: 'Subduction Zone Deformation Throughout the Earthquake Cycle: Observations and Models I Oral'
+    year: '2025'
+  ngu1odwAAAAJ:u-x6o8ySG0sC:
+    citations: 21
+    title: Interseismic deformation in the Gulf of Aqaba from GPS measurements
+    year: '2022'
+  ngu1odwAAAAJ:u5HHmVD_uO8C:
+    citations: 0
+    title: Interdisciplinary Earthquake Hazard Research in Gulf of Aqaba and Strait of Tiran (GAST)
+    year: '2018'
+  ngu1odwAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: Interdisciplinary Earthquake Hazard Research in Gulf of Aqaba.
+    year: '2019'
+  ngu1odwAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Using Geodetically Derived Strain Rates in Future US National Seismic Hazard Models
     year: '2023'
