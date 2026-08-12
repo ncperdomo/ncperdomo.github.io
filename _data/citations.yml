@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-12'
 papers:
   ngu1odwAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -29,6 +29,10 @@ papers:
     citations: 0
     title: Interseismic Deformation in the Gulf of Aqaba Inferred from GPS Measurements
     year: '2020'
+  ngu1odwAAAAJ:UebtZRa9Y70C:
+    citations: 3
+    title: "Seismic imaging of the critical zone of dolerite dykes at Cap Fr\xE9hel in Brittany (France)"
+    year: '2025'
   ngu1odwAAAAJ:W7OEmFMy1HYC:
     citations: 0
     title: A New Comprehensive Model of Crustal Deformation in the Mediterranean and the Middle East from GNSS Data
@@ -71,7 +75,7 @@ papers:
     year: '2022'
   ngu1odwAAAAJ:u5HHmVD_uO8C:
     citations: 0
-    title: Interdisciplinary Earthquake Hazard Research in Gulf of Aqaba and Strait of Tiran (GAST)
+    title: Interdisciplinary Earthquake Hazard Research in Gulf of Aqaba and Strait of Tiran (GAST)(400206)
     year: '2018'
   ngu1odwAAAAJ:ufrVoPGSRksC:
     citations: 0
