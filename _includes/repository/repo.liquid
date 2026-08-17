@@ -1,9 +1,13 @@
+{% comment %}
+#{% assign repo_url = include.repository | split: '/' %}
+#{% if site.data.repositories.github_users contains repo_url.first %}
+#  {% assign show_owner = false %}
+#{% else %}
+#  {% assign show_owner = true %}
+#{% endif %}
+{% endcomment %}
 {% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
+{% assign show_owner = false %}
 
 {% assign lang = site.lang | split: '-' | first %}
 
