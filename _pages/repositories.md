@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /repositories/
-title: software 
-description: 
+title: software
+description:
 nav: true
-nav_order: 2 
+nav_order: 2
 ---
 
 {% if site.data.repositories.github_users %}
@@ -35,12 +35,14 @@ nav_order: 2
 {% endif %}
 {% endif %}
 
---- 
+---
 
 {% if site.data.repositories.github_repos %}
 
 {% comment %}
+
 ## GitHub Repositories
+
 {% endcomment %}
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
