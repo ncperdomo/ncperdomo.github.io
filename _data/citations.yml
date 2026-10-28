@@ -1,12 +1,16 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-10-28'
 papers:
+  ngu1odwAAAAJ:0EnyYjriUFMC:
+    citations: 1
+    title: 'FICORO_GNSS: An open-source Python software package for filtering, combining and rotating GNSS velocity fields'
+    year: '2024'
   ngu1odwAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'Subduction Zone Deformation Throughout the Earthquake Cycle: Observations and Models'
     year: Unknown Year
   ngu1odwAAAAJ:9yKSN-GCB0IC:
-    citations: 4
+    citations: 10
     title: "Strain rates along the Alpine\u2010Himalayan belt from a comprehensive GNSS velocity field"
     year: '2025'
   ngu1odwAAAAJ:IjCSPb-OGe4C:
@@ -66,7 +70,7 @@ papers:
     title: Disentangling on-fault and off-fault contributions to geodetic strain rates
     year: '2025'
   ngu1odwAAAAJ:u-x6o8ySG0sC:
-    citations: 21
+    citations: 22
     title: Interseismic deformation in the Gulf of Aqaba from GPS measurements
     year: '2022'
   ngu1odwAAAAJ:u5HHmVD_uO8C:
