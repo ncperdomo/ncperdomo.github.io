@@ -2,15 +2,15 @@
 layout: post
 title: The 2D strain rate tensor and its invariants
 date: 2026-01-06 18:10:00-0000
-description: Commonly overlooked conceptual inaccuracies in strain-rate studies 
-tags: strain tensors linear-algebra 
-categories: methods 
+description: Commonly overlooked conceptual inaccuracies in strain-rate studies
+tags: strain tensors linear-algebra
+categories: methods
 related_posts: false
 ---
 
 **"Errare humanum est, perseverare autem diabolicum."**
-<br> 
-*"Making mistakes is human; persisting in them is diabolical."*
+<br>
+_"Making mistakes is human; persisting in them is diabolical."_
 
 ---
 
@@ -89,7 +89,7 @@ $$
 \lambda^2 - I_1^{2D}(\dot\varepsilon)\,\lambda + I_2^{2D}(\dot\varepsilon) = 0,
 $$
 
-where $I_1^{2D}$ and $I_2^{2D}$ are the first and second invariants of the 2D strain rate tensor, respectively. 
+where $I_1^{2D}$ and $I_2^{2D}$ are the first and second invariants of the 2D strain rate tensor, respectively.
 
 ---
 
@@ -170,17 +170,17 @@ In the literature, the following quantity is often (incorrectly) referred to as 
 
 $$
 \begin{aligned}
-\|\dot\varepsilon\|_F^{2D} = \sqrt{\sum_{i,j}\dot\varepsilon_{ij}^2} 
-    = \sqrt{\dot\varepsilon : \dot\varepsilon} 
-    = \sqrt{\operatorname{tr}(\dot\varepsilon^2)} 
+\|\dot\varepsilon\|_F^{2D} = \sqrt{\sum_{i,j}\dot\varepsilon_{ij}^2}
+    = \sqrt{\dot\varepsilon : \dot\varepsilon}
+    = \sqrt{\operatorname{tr}(\dot\varepsilon^2)}
     = \sqrt{\dot\varepsilon_{11}^2 + \dot\varepsilon_{22}^2 + 2\dot\varepsilon_{12}^2}
-    = \sqrt{\dot\varepsilon_{1}^2 + \dot\varepsilon_{2}^2} 
+    = \sqrt{\dot\varepsilon_{1}^2 + \dot\varepsilon_{2}^2}
 \end{aligned}
 $$
 
 This is the **Frobenius (Euclidean) norm** of the 2D strain-rate tensor, not the formal second invariant $I_2$.  
 The Frobenius norm is always non-negative, whereas $I_2$ can be negative when
-$\dot\varepsilon_{11}\dot\varepsilon_{22}-\dot\varepsilon_{12}^2<0$.  
+$\dot\varepsilon_{11}\dot\varepsilon_{22}-\dot\varepsilon_{12}^2<0$.
 
 The Frobenius norm is itself an invariant under orthogonal coordinate transformations.  
 For a rotation $\mathbf{Q}$ satisfying $\mathbf{Q}^T\mathbf{Q}=\mathbf{I}$,
@@ -238,7 +238,7 @@ $$
 \dot\varepsilon_{1,2} = \tfrac12\left(\dot\Delta \pm {\color{red}{2}}\dot\gamma_{\max}\right),
 $$
 
-**Note (erratum).** The factor of ${\color{red}{2}}$ was inadvertently omitted in the corresponding equation reported in the appendix of [this paper](https://doi.org/10.1029/2025JB031738) on strain rates across the Alpine–Himalayan belt. This was an oversight on my part. 
+**Note (erratum).** The factor of ${\color{red}{2}}$ was inadvertently omitted in the corresponding equation reported in the appendix of [this paper](https://doi.org/10.1029/2025JB031738) on strain rates across the Alpine–Himalayan belt. This was an oversight on my part.
 
 ---
 
@@ -267,7 +267,7 @@ $$
 
 ## A common confusion: principal strain rates vs. maximum shortening and extension
 
-A recurring conceptual mistake in strain-rate studies is the implicit conflation of the *principal strain rates* $(\dot\varepsilon_1,\dot\varepsilon_2)$ with the notions of *maximum extension* and *maximum shortening*.
+A recurring conceptual mistake in strain-rate studies is the implicit conflation of the _principal strain rates_ $(\dot\varepsilon_1,\dot\varepsilon_2)$ with the notions of _maximum extension_ and _maximum shortening_.
 
 By definition, $\dot\varepsilon_1$ and $\dot\varepsilon_2$ are simply the eigenvalues of the strain-rate tensor, conventionally ordered such that
 $\dot\varepsilon_1 \ge \dot\varepsilon_2$.
@@ -275,26 +275,28 @@ This ordering is mathematical, not physical: it does not, by itself, specify whe
 
 In particular:
 
-- $\dot\varepsilon_1$ represents the **maximum principal strain rate**, not necessarily the maximum *extensional* strain rate.
-- $\dot\varepsilon_2$ represents the **minimum principal strain rate**, not necessarily the maximum *shortening* strain rate.
+- $\dot\varepsilon_1$ represents the **maximum principal strain rate**, not necessarily the maximum _extensional_ strain rate.
+- $\dot\varepsilon_2$ represents the **minimum principal strain rate**, not necessarily the maximum _shortening_ strain rate.
 
 **Whether a given principal strain rate direction corresponds to extension or shortening depends on the sign of its associated eigenvalue, not on its index.**
 
 Specifically:
+
 - If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 < 0$, the principal direction associated with $\dot\varepsilon_1$ corresponds to maximum extension, and that associated with $\dot\varepsilon_2$ corresponds to maximum shortening.
 - If $\dot\varepsilon_1 > 0$ and $\dot\varepsilon_2 > 0$, the strain rate tensor is purely extensional. Both principal strain rates correspond to extension, and no shortening direction exists.
-- If $\dot\varepsilon_1 < 0$ and $\dot\varepsilon_2 < 0$, the strain rate tensor is purely compressional. Both principal strain rates correspond to shortening; $\dot\varepsilon_2$ represents the maximum shortening direction, while $\dot\varepsilon_1$ represents the least compressive direction, and no extensional direction exists. 
+- If $\dot\varepsilon_1 < 0$ and $\dot\varepsilon_2 < 0$, the strain rate tensor is purely compressional. Both principal strain rates correspond to shortening; $\dot\varepsilon_2$ represents the maximum shortening direction, while $\dot\varepsilon_1$ represents the least compressive direction, and no extensional direction exists.
 
-**Note (erratum)** In the appendix of [this paper](https://doi.org/10.1029/2025JB031738), I incorrectly stated that when $\dot\varepsilon_{\max}<0$, the azimuth $Az_{\dot\varepsilon_{\max}}$ represents the direction of maximum shortening. In a purely compressional regime, $\dot\varepsilon_{\max}=\dot\varepsilon_1$ corresponds to the least compressive direction, whereas maximum shortening is associated with $\dot\varepsilon_2$. 
+**Note (erratum)** In the appendix of [this paper](https://doi.org/10.1029/2025JB031738), I incorrectly stated that when $\dot\varepsilon_{\max}<0$, the azimuth $Az_{\dot\varepsilon_{\max}}$ represents the direction of maximum shortening. In a purely compressional regime, $\dot\varepsilon_{\max}=\dot\varepsilon_1$ corresponds to the least compressive direction, whereas maximum shortening is associated with $\dot\varepsilon_2$.
 
 In all cases, associating $\dot\varepsilon_1$ with extension and $\dot\varepsilon_2$ with shortening without explicitly evaluating their signs can lead to incorrect physical interpretations.
 
 A robust practice is therefore to:
+
 1. compute the principal strain rates,
 2. examine their signs,
-3. and only then assign the labels *maximum extension* and *maximum shortening* accordingly.
+3. and only then assign the labels _maximum extension_ and _maximum shortening_ accordingly.
 
-**Note (erratum)**. A confusion led me to implicitly associate $\dot\varepsilon_1$ with maximum extension and $\dot\varepsilon_2$ with maximum shortening in [this paper](https://doi.org/10.1029/2025JB031738). Fortunately, these issues were purely notational rather than methodological. In the analysis itself, I explicitly evaluated the signs of the eigenvalues to determine whether the principal directions represented extension or shortening. Therefore, all results presented are correct despite the unfortunate notational confusion throughout the paper. 
+**Note (erratum)**. A confusion led me to implicitly associate $\dot\varepsilon_1$ with maximum extension and $\dot\varepsilon_2$ with maximum shortening in [this paper](https://doi.org/10.1029/2025JB031738). Fortunately, these issues were purely notational rather than methodological. In the analysis itself, I explicitly evaluated the signs of the eigenvalues to determine whether the principal directions represented extension or shortening. Therefore, all results presented are correct despite the unfortunate notational confusion throughout the paper.
 
 ---
 
@@ -317,7 +319,7 @@ Az_{\dot\varepsilon_{\max}}
 $$
 
 This azimuth describes the orientation of a **principal axis** (an eigenvector of the
-strain-rate tensor) and is therefore a *geometric* property of the tensor itself.
+strain-rate tensor) and is therefore a _geometric_ property of the tensor itself.
 By construction, it does not encode whether deformation along this axis corresponds
 to extension or shortening. Consequently, $Az_{\dot\varepsilon_{\max}}$ should be interpreted strictly
 as the orientation of the principal axis associated with the largest eigenvalue.

@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={false}"
 social: false # includes social icons at the bottom of the page
@@ -29,10 +29,10 @@ I am a PhD candidate at Indiana University working on active tectonics and crust
 #### Research interests
 
 - Earthquake-cycle deformation
-  - How transient is the deformation observed between earthquakes? 
+  - How transient is the deformation observed between earthquakes?
   - What role do mantle processes play in driving present-day surface deformation?
-  - How much deformation occurs off-fault throughout the earthquake cycle? Is it primarily elastic or inelastic, and what are the implications for seismic hazard? 
+  - How much deformation occurs off-fault throughout the earthquake cycle? Is it primarily elastic or inelastic, and what are the implications for seismic hazard?
   - Is the relative contribution of off-fault deformation lower around mature fault systems than around complex fault zones?
-<br>
+    <br>
 
 ---

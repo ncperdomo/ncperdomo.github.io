@@ -2,16 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Nicolás Castro-Perdomo 
+      value: Nicolás Castro-Perdomo
     - name: Languages
-      value: English, Spanish 
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: King Abdullah University of Science and Technology 
-      year: 2019 
+      institution: King Abdullah University of Science and Technology
+      year: 2019
       description:
         - Description 1.
         - Description 2.

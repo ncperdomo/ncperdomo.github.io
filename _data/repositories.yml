@@ -1,10 +1,10 @@
 github_users:
 
-repo_description_lines_max: 5 
+repo_description_lines_max: 5
 
 github_repos:
   - ncperdomo/FICORO_GNSS
-  - ncperdomo/GNSS_Elastic_Dislocation_MCMC 
+  - ncperdomo/GNSS_Elastic_Dislocation_MCMC
   - ncperdomo/PyVelrot
   - ncperdomo/PyCvframe
   - ncperdomo/Alpides_Strain_Rates_Supplements
