@@ -109,10 +109,9 @@ def get_scholar_citations() -> None:
                 f"Error processing publication '{pub.get('bib', {}).get('title', 'Unknown')}': {e}. This publication will be skipped."
             )
 
-    # Compare new data with existing data
+    # Keep the refresh date current even when citation counts are unchanged.
     if existing_data and existing_data.get("papers") == citation_data["papers"]:
-        print("No changes in citation data. Skipping file update.")
-        return
+        print("No changes in citation data. Updating refresh date.")
 
     try:
         with open(OUTPUT_FILE, "w") as f:
